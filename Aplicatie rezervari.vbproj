@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2683FA10-CA30-4FDA-B535-993B4606FE2D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Aplicatie_rezervari.My.MyApplication</StartupObject>
+    <RootNamespace>Aplicatie_rezervari</RootNamespace>
+    <AssemblyName>Aplicatie rezervari</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Aplicatie rezervari.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Aplicatie rezervari.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CamereAngajat.Designer.vb">
+      <DependentUpon>CamereAngajat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CamereAngajat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientiAdmin.Designer.vb">
+      <DependentUpon>ClientiAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClientiAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientiAngajat.Designer.vb">
+      <DependentUpon>ClientiAngajat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClientiAngajat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreareContNou.Designer.vb">
+      <DependentUpon>CreareContNou.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreareContNou.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RezervariAdmin.Designer.vb">
+      <DependentUpon>RezervariAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RezervariAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RezervariAngajat.Designer.vb">
+      <DependentUpon>RezervariAngajat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RezervariAngajat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HartaCamerelorAdmin.Designer.vb">
+      <DependentUpon>HartaCamerelorAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HartaCamerelorAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImagineDeInceput.Designer.vb">
+      <DependentUpon>ImagineDeInceput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImagineDeInceput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogareCont.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogareCont.Designer.vb">
+      <DependentUpon>LogareCont.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="CreeazaORezervareNouaAdmin.Designer.vb">
+      <DependentUpon>CreeazaORezervareNouaAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreeazaORezervareNouaAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TarifCamereAdmin.Designer.vb">
+      <DependentUpon>TarifCamereAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TarifCamereAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TarifDinamicAdmin.Designer.vb">
+      <DependentUpon>TarifDinamicAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TarifDinamicAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UtilizatoriAdmin.Designer.vb">
+      <DependentUpon>UtilizatoriAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UtilizatoriAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CamereAngajat.resx">
+      <DependentUpon>CamereAngajat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientiAdmin.resx">
+      <DependentUpon>ClientiAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientiAngajat.resx">
+      <DependentUpon>ClientiAngajat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreareContNou.resx">
+      <DependentUpon>CreareContNou.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RezervariAdmin.resx">
+      <DependentUpon>RezervariAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HartaCamerelorAdmin.resx">
+      <DependentUpon>HartaCamerelorAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImagineDeInceput.resx">
+      <DependentUpon>ImagineDeInceput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogareCont.resx">
+      <DependentUpon>LogareCont.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreeazaORezervareNouaAdmin.resx">
+      <DependentUpon>CreeazaORezervareNouaAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RezervariAngajat.resx">
+      <DependentUpon>RezervariAngajat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TarifCamereAdmin.resx">
+      <DependentUpon>TarifCamereAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TarifDinamicAdmin.resx">
+      <DependentUpon>TarifDinamicAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UtilizatoriAdmin.resx">
+      <DependentUpon>UtilizatoriAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

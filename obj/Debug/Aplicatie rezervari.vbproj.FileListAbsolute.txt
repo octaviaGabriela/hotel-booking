@@ -1,0 +1,25 @@
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.CamereAngajat.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.ClientiAdmin.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.ClientiAngajat.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.CreareContNou.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.Form1.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.FormRezervariAdmin.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.HartaCamerelorAdmin.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.ImagineDeInceput.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.LogareCont.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.Resources.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.CreeazaORezervareNouaAdmin.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.RezervariAngajat.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.TarifCamereAdmin.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.TarifDinamicAdmin.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie_rezervari.Utilizatori.resources
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie rezervari.vbproj.GenerateResource.cache
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\bin\Debug\Aplicatie rezervari.exe.config
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\bin\Debug\Aplicatie rezervari.exe
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\bin\Debug\Aplicatie rezervari.pdb
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\bin\Debug\Aplicatie rezervari.xml
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie rezervari.vbproj.CoreCompileInputs.cache
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie rezervari.exe
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie rezervari.xml
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie rezervari.pdb
+C:\Users\Octavia\Desktop\LicentaVS\Aplicatie rezervari\obj\Debug\Aplicatie rezervari.vbproj.AssemblyReference.cache
